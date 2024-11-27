@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Parallax Scrolling Demonstration</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="/">
+          <pre>Parallax Scrolling Demonstration</pre>
+        </a>
+      </h1>
+    </header>
+    <main>
+      <section>
+        <div>
+          <img src="/2.jpg" />
+          <h2>Metal Finance</h2>
+          <p>Streams of encrypted wealth drive global transformation</p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <img src="/3.jpg" />
+          <h2>Metal Power</h2>
+          <p>Digital current transforms raw energy into calculated progress</p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <img src="/4.jpg" />
+          <h2>Metal Design</h2>
+          <p>Algorithms shape tomorrow's blueprints in the digital precision</p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <img src="/6.jpg" />
+          <h2>Metal Build</h2>
+          <p>Layer by layer machines assemble reality from digital dreams</p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <img src="/7.jpg" />
+          <h2>Metal Call</h2>
+          <p>Invisible networks linking minds through streams of binary connection</p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <img src="/8.jpg" />
+          <h2>Metal Shape</h2>
+          <p>Smart tools transform new concepts into reality</p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <img src="/1.jpg" />
+          <h2>Metal Beauty</h2>
+          <p>In circuits and perfect nature function and form unite</p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <img src="/5.jpg" />
+          <h2>Metal Enhance</h2>
+          <p>Digital layers blend with base reality expanding futures from code</p>
+        </div>
+      </section>
+      <div class="progress"></div>
+    </main>
+    <script>
+      document.body.style.setProperty(
+        "--accent",
+        `var(--hue-${Math.ceil(Math.random() * 7) - 1})`
+      );
+    </script>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
